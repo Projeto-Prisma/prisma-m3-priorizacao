@@ -1,0 +1,14 @@
+# --- API ---
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30
+
+# --- validação/config ---
+pydantic>=2.7,<3
+pydantic-settings>=2.3
+
+# --- mensageria ---
+aio-pika>=9.4
+
+# --- banco (PostgreSQL async) ---
+SQLAlchemy[asyncio]>=2.0,<3
+asyncpg>=0.29
